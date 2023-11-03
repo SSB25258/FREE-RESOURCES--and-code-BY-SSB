@@ -1,0 +1,116 @@
+head{
+    background-size: auto;
+    width:2160vw ;
+    height: 3619vw;
+    font-size: medium;
+margin: auto;
+}
+body{
+  margin: 0;
+        padding: 0;
+       background-image: url('./h2.jpg');
+}
+#sss{
+    text-align: center;
+}
+body{
+    font-style: italic;
+    
+}
+div{
+    color: rgb(10, 220, 203);
+    font-size: 25px;
+}
+h2{
+    color: rgba(102, 231, 17, 0.985);
+}
+h1{
+  
+    font-size: 44px;
+    font-weight: 900;
+    background-image: url('./h8.jpg');
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+a:link{
+    text-decoration: none;
+    color: rgb(125, 154, 248);
+ }
+ a:visited{
+    color: blue;
+ }
+ a:active{
+    background-color: rgb(169, 132, 19);
+ }
+ a:hover{
+    background-color: brown;
+ }
+ #11{
+    color: red;
+ }
+ #222{
+    color: rgb(255, 77, 0);}
+    #subscriber{
+        background-color: red;
+        padding: 8px;
+        border: solid black whitesmoke;
+        border-width: 10px;
+    }
+    .navbar{
+        position: sticky;
+        background-image:url('./hs1.jpg');
+        border-radius: 11px;
+        border-color: rgb(165, 178, 23);
+        padding: -5px;
+        boarder-style: solid;
+    }
+.navbar li{
+
+float: left;
+list-style-type: none;
+margin: 13px 30px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    padding: 50px 20px;
+    text-decoration: none;
+}
+button{
+    box-shadow: 0 0 5px cyan,0 0 25px cyan;
+}
+button:hover{
+    box-shadow: 0 0 5px rgb(8, 43, 107),
+    0 0 25px rgb(3, 49, 49),0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
+#telegram{
+    margin: 18px 100px;
+    background-color: rgb(252, 8, 8);
+    padding: 8px;
+    border: solid rgb(199, 140, 24) rgb(245, 245, 245);
+    border-width: 10px;
+    position: relative;
+    top: -68px;
+    right: -85px;
+
+}
+#video-container{
+    height: 100vw;
+    width: 100%;
+    background-color: gray;
+}
+#video-container video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.container{
+    background-color: aliceblue;
+    border: solid 5px rgb(188, 86, 18);
+    padding-left: 70px;
+}
